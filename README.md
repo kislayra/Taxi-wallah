@@ -1,17 +1,33 @@
-# **Taxi-Wallah:**
-This project is a Taxi Booking System built using Spring Boot with Java and Jakarta API. The application includes various features like user authentication, car booking, and management. It employs MySQL for the database, Thymeleaf for the front-end, and runs on a Tomcat Server. 
+# 🚖 **Taxi-Wallah**
 
-## **Technologies Used**
-### •	Spring Boot 
-### •	Java 
-### •	Hibernate
-### •	Jakarta API
-### •	MySQL
-### •	Spring Tool Suite (STS) IDE
-### •	Tomcat Server
-### •	Thymeleaf
-### •	Maven
-### •	Spring Security
+**Taxi-Wallah** is a Taxi Booking System built using **Spring Boot** with **Java** and **Jakarta API**.  
+The application offers features such as:
+
+- ✅ User authentication  
+- 🚗 Car booking and management  
+- 🛡️ Admin dashboard for data oversight  
+
+It uses **MySQL** for data storage, **Thymeleaf** for the front-end, and runs on an embedded **Tomcat Server**.
+
+---
+
+## 🛠️ **Technologies Used**
+
+- 🌱 **Spring Boot** – Backend framework  
+- ☕ **Java** – Programming language  
+- 🛖 **Hibernate** – ORM for database interaction  
+- 📦 **Jakarta API** – For building enterprise-level Java apps  
+- 🗄️ **MySQL** – Relational database  
+- 🛠️ **Spring Tool Suite (STS)** – IDE used for development  
+- 🧩 **Tomcat Server** – Embedded servlet container  
+- 🎨 **Thymeleaf** – Template engine for rendering front-end  
+- 🧰 **Maven** – Dependency and build management  
+- 🔐 **Spring Security** – Authentication and authorization
+
+---
+
+Would you like me to format the next section too (like "Running the Application") in the same style?
+
 
 
 ## **Running the Application**
@@ -20,21 +36,20 @@ This project is a Taxi Booking System built using Spring Boot with Java and Jaka
 3.	Access the application through http://localhost:8080
 
 ## How to set up database:
-Go MySQL Workbench.
-Create database taxibooking.
-set password of your MYSQL server into src/main/resources/application.properties this file.
-Run this project on any IDE(eg. Intellij idea) 
-all the tables will be created automatically
+Open MySQL Workbench and create a database named taxibooking.
+Set your MySQL username and password in the src/main/resources/application.properties file.
+Then, run the project using any IDE (e.g., IntelliJ IDEA or Spring Tool Suite).
+All necessary tables will be created automatically when the application starts.
 
 ## How to run Application:
-open and run this file in your project src/main/java/com/example/Taxiwallah1Application.java
-this should start the frontend as well as the backend server.
-your wewbsite should be accesible on this "http://localhost:8080/" link.
+Open and run the file located at src/main/java/com/example/Taxiwallah1Application.java in your project.
+This will start both the frontend and backend servers.
+Your website should then be accessible at: http://localhost:8080/
 
 ## How to fetch all data: Admin Section
-you can fetch all data like contact details or booking details using the admin dashboard
-endpoint for the admin dashboard is "http://localhost:8080/admin/dashboard"
-you have to enter you admin username and password to access it.
+You can view all data, such as contact details and booking information, using the Admin Dashboard.
+The dashboard is available at: http://localhost:8080/admin/dashboard
+You must enter your admin username and password to access it.
 By default 
 #### username : admin 
 #### password : admin123
