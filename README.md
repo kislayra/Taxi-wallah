@@ -38,3 +38,12 @@ you have to enter you admin username and password to access it.
 By default 
 #### username : admin 
 #### password : admin123
+## Some Snapshots:
+![image](https://github.com/user-attachments/assets/2bf31467-2ede-4fb8-8041-93f6de24c08e)
+![Screenshot 2025-04-30 210309](https://github.com/user-attachments/assets/a2328a89-4fde-4f6a-879e-b738149d4fc5)
+![image](https://github.com/user-attachments/assets/07dd9067-c3a0-456f-8ea6-6011a311d5e9)
+![image](https://github.com/user-attachments/assets/e8c13e6e-2e0e-4c8a-b237-2642297db135)
+![image](https://github.com/user-attachments/assets/3b7a00f3-007c-4faa-9607-dcd4788bf914)
+![image](https://github.com/user-attachments/assets/de67bb90-37a4-4e9d-a7ec-6a029acbeeb8)
+![image](https://github.com/user-attachments/assets/aea83b9e-44a9-4f30-8781-e515f4f6e6ec)
+
