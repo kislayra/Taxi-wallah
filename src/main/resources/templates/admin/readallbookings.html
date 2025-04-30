@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Details Table</title>
+    <style>
+        table {
+            width: 95%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            padding: 10px 12px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #eaeaea;
+            font-size: 15px;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        caption {
+            caption-side: top;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Booking Form Submissions</caption>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>To</th>
+            <th>Date</th>
+            <th>Comfort</th>
+            <th>Adults</th>
+            <th>Children</th>
+            <th>ACTION</th>
+        </tr>
+       
+        <tr>
+            <td>6</td>
+            <td>john@example.com</td>
+            <td>Delhi</td>
+            <td>2025-05-01</td>
+            <td>Standard</td>
+            <td>2</td>
+            <td>1</td>
+          <td><a href="#">DELETE</a></td> 
+        </tr>
+     
+        <tr th:each="booking : ${allBookings}">
+            <td th:text="${booking.id}"></td>
+            <td th:text="${booking.email}"></td>
+            <td th:text="${booking.destination}"></td>
+            <td th:text="${booking.date}"></td>
+            <td th:text="${booking.comfort}"></td>
+            <td th:text="${booking.adult}"></td>
+            <td th:text="${booking.children}"></td>
+            <td>
+                <a th:href="@{/admin/deleteBooking/{id}(id=${booking.id})}">DELETE</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
