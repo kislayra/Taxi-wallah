@@ -64,7 +64,7 @@ public class AdminController
 
 		return "admin/readallbookings";
 	}
-	@GetMapping("deleteBooking/{id}")
+	@GetMapping(path = {"#", "deleteBooking/{id}"})
 	public String deleteBooking(@PathVariable int id,RedirectAttributes redirectAttributes)
 	{
 		bookingFormService.deleteBookingService(id);

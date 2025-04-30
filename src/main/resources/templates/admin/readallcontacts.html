@@ -30,7 +30,7 @@
 				<td th:text="${contact.message}"> </td>
 				<td th:text="${contact.phone}"> </td>
 				<td>
-					<a th:href="@{/admin/deleteContact/{id}(id=${contact.id})}">DELETE</a>
+					<a th:href="@{/admin(id=${contact.id})}">DELETE</a>
 				</td>
 			</tr>
 		</tbody>
