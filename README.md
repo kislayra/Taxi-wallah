@@ -26,7 +26,7 @@ It uses **MySQL** for data storage, **Thymeleaf** for the front-end, and runs on
 
 ---
 
-Would you like me to format the next section too (like "Running the Application") in the same style?
+
 
 
 
